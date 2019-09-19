@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:TicketLibrary.Car">
+            <summary>Car ticket</summary>
+        </member>
+        <member name="F:TicketLibrary.Car.DefaultPrice">
+            <summary>Price of a car ticket</summary>
+        </member>
+        <member name="M:TicketLibrary.Car.Price(System.Boolean)">
+            <summary>Get price for a car with or without Brobizz discount</summary>
+            <param name="isBrobizz">Is Brobizz used (optional, default = false)</param>
+            <returns>Price</returns>
+        </member>
+        <member name="M:TicketLibrary.Car.VehicleType">
+            <summary>Get type of the vehicle</summary>
+            <returns>Type</returns>
+        </member>
+        <member name="T:TicketLibrary.MC">
+            <summary>MC ticket</summary>
+        </member>
+        <member name="F:TicketLibrary.MC.DefaultPrice">
+            <summary>Price of a MC ticket</summary>
+        </member>
+        <member name="M:TicketLibrary.MC.Price(System.Boolean)">
+            <summary>Get price for a car with or without Brobizz discount</summary>
+            <param name="isBrobizz">Is Brobizz used (optional, default = false)</param>
+            <returns>Price</returns>
+        </member>
+        <member name="M:TicketLibrary.MC.VehicleType">
+            <summary>Get type of the vehicle</summary>
+            <returns>Type</returns>
+        </member>
+        <member name="T:TicketLibrary.Vehicle">
+            <summary>Base class of all vehicles</summary>
+        </member>
+        <member name="P:TicketLibrary.Vehicle.Licenseplate">
+            <summary>Gets or sets the license plate number</summary>
+        </member>
+        <member name="F:TicketLibrary.Vehicle.Date">
+            <summary>Gets or sets the date when the vehicle passes the bridge</summary>
+        </member>
+        <member name="M:TicketLibrary.Vehicle.PriceWithBrobizz(System.Double)">
+            <summary>Apply Brobizz discount to the given price</summary>
+            <returns>Price after discount</returns>
+        </member>
+    </members>
+</doc>
